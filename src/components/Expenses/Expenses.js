@@ -1,10 +1,9 @@
 
 import Expenseitem from "./Expenseitem";
 import "./Expenses.css";
-import Card from "./Card";
+import Card from "../UI/Card";
 
-
-function Expenses(props) {
+const Expenses=(props)=> {
   return (
     <Card className="expenses">
       <Expenseitem
