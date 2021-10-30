@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
+// import PieChart from "./components/PieChart/PieChart";
 
 const DUMMY_EXPENSES = [
   {
